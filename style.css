@@ -6,29 +6,117 @@
 }
 
 @font-face {
-    font-family: Montserrat-Bold;
+    font-family: Montserrat Bold;
     font-display: auto;
     src: local('Montserrat Bold'), url(./assets/fonts/Montserrat-Bold.woff2);
     font-style: normal;
 }
 
 @font-face {
-    font-family: Montserrat-ExtraBold;
+    font-family: Montserrat ExtraBold;
     font-display: auto;
     src: local('Montserrat ExtraBold'), url(./assets/fonts/Montserrat-ExtraBold.woff2);
     font-style: normal;
 }
 
 @font-face {
-    font-family: Montserrat-Italic;
+    font-family: Montserrat Italic;
     font-display: auto;
     src: local('Montserrat Italic'), url(./assets/fonts/Montserrat-Italic.woff2);
     font-style: normal;
 }
 
 @font-face {
-    font-family: Montserrat-Medium;
+    font-family: Montserrat Medium;
     font-display: auto;
     src: local('Montserrat Medium'), url(./assets/fonts/Montserrat-Medium.woff2);
     font-style: normal;
 }
+
+body {
+    margin: 0;
+    font-family: 'Montserrat Medium';
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #A1A1A1;
+    
+}
+
+.menu-points {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar a {
+    margin: 40px 10px;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.primary-button {
+    font-family: 'Montserrat Medium';
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 14px 36px;
+    border: 0;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Montserrat Medium';
+    font-size: 48px;
+    line-height: 64px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.home-section {
+    background-image: url(./assets/img/Rectangle.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+}
+
+.home-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.home-section-content h1 {
+    margin: 30px 0 50px;
+}
+ 
