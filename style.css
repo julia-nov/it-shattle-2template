@@ -124,11 +124,11 @@ h2 {
     font-family: 'Montserrat Bold';
     font-size: 36px;
     line-height: 53px;
-    text-align: center;
     color: #323232;
 }
 
 .services-section-intro h2 {
+    text-align: center;
     margin: 0 185px;
 }
 
@@ -172,4 +172,39 @@ h2 {
     text-align: center;
     padding-top: 110px;
     padding-bottom: 105px;
+}
+
+.standards {
+    background-color: #F6F6F8;
+}
+
+.standards-section-content {
+    padding: 100px 0 70px;
+}
+
+.standards-info-img {
+    display: flex;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #E0E0E0;;
+}
+
+.standards-descr .description {
+    margin: 40px 120px 30px 0;
+}
+
+.standards-descr a {
+    color: #4985FF;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 60px;
+}
+
+.achievement-count-number {
+    font-family: Montserrat Regular;
+    font-size: 36px;
+    line-height: 53px;
+    padding-left: 20px;
 }
