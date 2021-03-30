@@ -125,6 +125,7 @@ h2 {
     font-size: 36px;
     line-height: 53px;
     color: #323232;
+    margin: 0;
 }
 
 .services-section-intro h2 {
@@ -190,6 +191,19 @@ h2 {
 
 .standards-descr .description {
     margin: 40px 120px 30px 0;
+}
+
+.standards-descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+
+.standards-info-img img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: auto;
 }
 
 .standards-descr a {
