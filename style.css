@@ -89,7 +89,7 @@ h1 {
     text-align: center;
 }
 
-h3 {
+.home-section p {
     font-family: 'Montserrat Regular';
     font-size: 16px;
     line-height: 20px;
@@ -117,6 +117,59 @@ h3 {
 }
 
 .home-section-content h1 {
-    margin: 30px 0 50px;
+    margin: 30px 185px 50px 185px;
 }
- 
+
+h2 {
+    font-family: 'Montserrat Bold';
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+}
+
+.services-section-intro h2 {
+    margin: 0 185px;
+}
+
+.description {
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}
+
+.services-section-intro .description {
+    margin: 50px 185px 70px 185px;
+    text-align: center;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item-block {
+    display: flex;
+}
+
+.service-item-descr {
+    margin: 17px 17px 55px 17px;
+    text-align: start;
+}
+
+.service-item-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: auto;
+}
+
+.services-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 105px;
+}
