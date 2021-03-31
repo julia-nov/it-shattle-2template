@@ -103,8 +103,7 @@ h1 {
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
-
+    background-size: cover;
 }
 
 .home-section-content {
@@ -117,7 +116,7 @@ h1 {
 }
 
 .home-section-content h1 {
-    margin: 30px 185px 50px 185px;
+    margin: 30px 110px 50px 110px;
 }
 
 h2 {
@@ -130,7 +129,7 @@ h2 {
 
 .services-section-intro h2 {
     text-align: center;
-    margin: 0 185px;
+    margin: 0 110px;
 }
 
 .description {
@@ -222,3 +221,76 @@ h2 {
     line-height: 53px;
     padding-left: 20px;
 }
+
+.our-works {
+    background: linear-gradient(#504DC2 50%, #fff 50%);
+    padding: 100px 0 85px;
+}
+
+.our-works-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-works-title h2,
+.our-works-title-button {
+    flex: 1;
+}
+
+.our-works-title-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.our-works-title h2 {
+    font-family: 'Montserrat Bold';
+    color: white;
+    font-size: 36px;
+    line-height: 53px;
+    margin: 0;
+}
+
+.our-works-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-bottom: 85px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.our-works-item {
+    width: 31%;
+}
+
+.our-works-item img {
+    width: 100%;
+}
+
+.our-works-item h5 {
+    font-family: 'Montserrat Bold';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.our-works-item h5 span {
+    color: #4985FF;
+}
+
+.our-works-item p {
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}
+
+.our-works-item a {
+    color: #4985FF;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+
+
+
