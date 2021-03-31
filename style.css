@@ -76,6 +76,10 @@ body {
     border: 0;
 }
 
+.primary-button:focus {
+    outline: 0;
+}
+
 .container {
     width: 75%;
     margin: 0 auto;
@@ -290,6 +294,106 @@ h2 {
     line-height: 20px;
     text-decoration-line: underline;
 }
+
+.subscription-section {
+    text-align: center;
+    padding: 85px 0;
+}
+
+.subscription-section h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Montserrat Bold';
+    margin: 0;
+}
+
+.subscription-section p {
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin: 20px 0 30px;
+}
+
+.subscription-section span {
+    font-family: 'Montserrat Regular';
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+}
+
+.subscription-section .subscribe-block {
+    display: flex;
+    justify-content: center;
+    width: 490px;
+    margin: 0 auto 35px;
+}
+
+.subscribe-block input {
+    border-radius: 30px 0 0 30px;
+    flex: 2;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    padding: 14px 33px;
+}
+
+.subscribe-block input::placeholder {
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+}
+
+.subscribe-block input:focus {
+    outline: 0;
+}
+
+.subscribe-block .primary-button {
+    border-radius: 0 30px 30px 0;
+    flex: 1;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+}
+
+@media (max-width: 900px) {
+    h1 {
+    font-size: 20px;
+    line-height: 22px;
+    }
+    .our-works-content {
+        flex-wrap: wrap;
+    }
+    .our-works-item {
+        width: 47%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .our-works-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .our-works-title {
+        flex-direction: column;
+        align-items: start;
+    }
+    .our-works-title  button {
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
