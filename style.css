@@ -38,6 +38,11 @@ body {
     font-family: 'Montserrat Medium';
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 .navbar {
     position: absolute;
     display: flex;
@@ -210,6 +215,9 @@ h2 {
     padding-bottom: 90px;
     border-bottom: 1px solid #E0E0E0;;
 }
+.standards-info-img img {
+    margin: auto 0;
+}
 
 .standards-descr .description {
     margin: 40px 120px 30px 0;
@@ -221,7 +229,6 @@ h2 {
     justify-content: center;
 }
   
-
 .standards-info-img img {
     max-width: 100%;
     height: auto;
@@ -510,18 +517,9 @@ footer a {
     margin-left: 12px;
 }
 
-
-@media (max-width: 900px) {
-    h1 {
-    font-size: 20px;
-    line-height: 22px;
-    }
-    .our-works-content {
-        flex-wrap: wrap;
-    }
-    .our-works-item {
-        width: 47%;
-        margin-bottom: 10px;
+@media (max-width: 1200px) {
+    .standards-info-img img {
+    max-width: 45%;
     }
 }
 
@@ -529,15 +527,133 @@ footer a {
     .our-works-item {
         width: 100%;
     }
+    .container {
+        width: 80%;
+    }
+    .services-section-content.container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .service-item-descr {
+        margin-bottom: 20px;
+    }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
+    .home-section-content h1 {
+        margin: 30px 50px;
+    }
+    .services-section-intro h2 {
+        margin: 0 40px;
+    }
+    .subscription-section p {
+        margin: 20px 10px;
+    }
+    .subscription-section .subscribe-block {
+        width: 350px;
+    }
+    .achievements {
+        justify-content: start;
+    }
+    .achievement-block {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 20px;
+        line-height: 22px;
+        }
+        .our-works-content {
+            flex-wrap: wrap;
+        }
+        .our-works-item {
+            width: 47%;
+            margin-bottom: 10px;
+        }
     .our-works-title {
         flex-direction: column;
         align-items: start;
     }
     .our-works-title  button {
         margin-top: 30px;
+    }
+
+    .services-section-intro .description {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .services-section-intro h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .services-list {
+        flex-wrap: wrap;
+    }
+    .standards-section-content {
+        text-align: center;
+    }
+    .standards-descr h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .standards-info-img {
+        flex-direction: column;
+    }
+    .standards-info-img img {
+        max-width: 60%;
+        margin: 15px auto;
+    }
+   .standards-descr .description {
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .our-projects h2,
+   .our-work-video h2 {
+    font-size: 20px;
+    line-height: 22px;
+   }
+   .achievements {
+       flex-wrap: wrap;
+       padding: 20px 0;
+   }
+   .achievement-block {
+       margin-bottom: 10px;
+   }
+    .our-works-title h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .our-projects .description {
+        width: 100%;
+    }
+    .projects-items {
+        flex-wrap: wrap;
+    }
+    .our-projects img {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .our-projects .container {
+        padding: 70px 0;
+    }
+    .our-work-video p {
+        margin-bottom: 10px;
+    }
+    .video-item img {
+        width: 90%;
+    }
+    .after-video .container {
+        margin-top: 40px;
+    }
+    footer address,
+    footer nav {
+        width: 50%;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
     }
 }
 
